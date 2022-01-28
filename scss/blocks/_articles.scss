@@ -1,0 +1,128 @@
+.articles{
+  margin-top: 100px;
+}
+.articles__title{
+  margin-bottom: 90px;
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.articles__list{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+
+}
+.artlist__itam{
+  width: 305px;
+  background: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+.artlist__content{
+  width: 267px;
+  padding: 0 0px 37px 30px;
+
+
+
+}
+.artlist__time{
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+.artlist__title{
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+.artlist__text{
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.artlist__button{
+  position: relative;
+  margin-left: 30px;
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: #333333;
+    opacity: 0.6;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -32px;
+    width: 35px;
+    height: 26px;
+    background-image: url(../images/pet.svg);
+    background-repeat: no-repeat;
+  }
+}
+
+.articles__itam{
+  width: 640px;
+  margin: 0 24px;
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+.actlist__block{
+  width: 270px;
+  margin-left: 30px;
+  padding-right: 34px;
+}
+.actlist__span {
+  display: flex;
+  justify-content: space-between;
+}
+.span__time{
+  display: flex;
+  align-items: center;
+}
+.span__text{
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  text-align: center;
+  color: #3D9CEA;
+}
+.span__time{
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
